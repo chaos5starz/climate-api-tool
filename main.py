@@ -20,7 +20,7 @@ params = {
 }
 
 headers = {
-    "Content-Type": "application/json",  # tells server what kind of data we want
+    "Content-Type": "application/json", 
 }
 response = requests.get(url, headers=headers , params=params)
 
